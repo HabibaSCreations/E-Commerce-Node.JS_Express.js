@@ -1,0 +1,114 @@
+[
+  {
+    "id": "PROD_1",
+    "product_title": " \"Cat Mist Grooming Brush\"",
+    "product_price": "250",
+    "product_description": "\"The Cat Mist Grooming Brush is suitable for various cat and dog breeds, making grooming a stress-free and enjoyable experience for both pets and owners.\",",
+    "image_path": "/uploads/product-123.jpg"
+  },
+  {
+    "id": "PROD_2",
+    "product_title": "\"EXQ Home Cat Exercise Wheel for Indoor Cats\",",
+    "product_price": "5000",
+    "product_description": "\"The advanced TPE silent roller minimize operational noise.Especially late at night or at work, you won't be distu\",\r\n",
+    "image_path": "/uploads/product-456.jpg"
+  },
+  {
+    "id": "PROD_1714367009230_540",
+    "product_title": "\"Catit Creamy Lickable Cat Treat Tube, Chicken\",",
+    "product_price": "254",
+    "product_description": " \"Catit Creamy Lickable Cat Treat Tube in Chicken flavor is a nutritious and hydrating snack designed to add variety to your cat's diet. This treat is rich in protein and essential nutrients,\",\r\n    \"image_path\": \"/uploads/product-1714367009205.jpg\"\r\n",
+    "image_path": "/uploads/product-1714367009205.jpg"
+  },
+  {
+    "id": "PROD_1714367464554_841",
+    "product_title": "\"Cat Carrier Tote Bag\",",
+    "product_price": "5000",
+    "product_description": "product description new\"Cat Carrier Tote Bag with Rabbit Head Hole, Cat Carrier Bag with Bee Head Hole, Cute Dinosaur Shaped Pet Canvas Shoulder Bag Portable Carrying Bag for Small Dogs and Cats 13 lbs\",\r\n",
+    "image_path": "/uploads/product-1714367464517.jpg"
+  },
+  {
+    "id": "PROD_1714372688739_780",
+    "product_title": "\"Cat Foods \",",
+    "product_price": "5000",
+    "product_description": " \"The best indoor cat foods are formulated to meet the nutritional needs of felines who live exclusively inside. They can address potential health concerns. For instance, indoor cat foods often contain fewer calories and lo \",\r\n",
+    "image_path": "/uploads/product-1714372688703.jpg"
+  },
+  {
+    "id": "PROD_1740151381325_581",
+    "product_title": "\"Stylish Sunglasses for Cats\",",
+    "product_price": "1000",
+    "product_description": "\"Stylish sunglasses for cats offer protection from UV rays, dust, and debris while adding a fashionable touch to your pet’s appearance, ideal for photo props and outdoor adventures.\",\r\n",
+    "image_path": "/uploads/product-1740151395219.jpg"
+  },
+  {
+    "id": "PROD_1740152357934_234",
+    "product_title": " \"Cat Litter\"",
+    "product_price": "1000",
+    "product_description": "\"It’s made in Australia, it’s eco-friendly – and it’s one of Habitat’s all-time biggest selling products. Cat people, it’s about time you switched your kitty to Breeder’s Choice Cat Litter.\",",
+    "image_path": "/uploads/product-1740152357932.jpg"
+  },
+  {
+    "id": "PROD_1740152386050_754",
+    "product_title": "\"Double Roof Cat House\",",
+    "product_price": "1000",
+    "product_description": " \"Providing a suitable cat house can enhance your cat's well-being by offering them a space to call their own, satisfying their natural behaviors, and ensuring their safety and comfort.\",",
+    "image_path": "/uploads/product-1740152386048.jpg"
+  },
+  {
+    "id": "PROD_1740152413314_763",
+    "product_title": "\"Braveecto\",",
+    "product_price": "1000",
+    "product_description": "\"Bravecto is available by prescription only. Consult your veterinarian to determine if Bravecto is suitable for your pet and to obtain a prescription.By choosing Bravecto, you provide your pet with a reliable and long-lasting defense against \",",
+    "image_path": "/uploads/product-1740152413313.jpg"
+  },
+  {
+    "id": "PROD_1740152966691_460",
+    "product_title": "ProPlan",
+    "product_price": "500",
+    "product_description": " \"Complementary cat food supplement with multivitamins for adult and senior felines.Help sustain energy levels and overall cat health.Help promote healthy skin and coat in cats.\",",
+    "image_path": "/uploads/product-1740152966690.jpg"
+  },
+  {
+    "id": "PROD_1740152990146_700",
+    "product_title": "\"Growth & Balance Adult Cat Food Chicken,Egg & Rice 1.3kg \"",
+    "product_price": "400",
+    "product_description": "\"Dry food for cats of all ages, from kittens to adult cats. Has a kibble size of 0.7 – 0.9 cm, so it is easy to consume. Specially formulated  \",",
+    "image_path": "/uploads/product-1740152990145.jpg"
+  },
+  {
+    "id": "PROD_1740153067344_262",
+    "product_title": "\"Cat Scratching Board\"",
+    "product_price": "1000",
+    "product_description": " \"Cat Scratching Board, Corrugate Cat Scratcher for Indoor Cats with Catnip, Cat Scratch Pad with Premium Scratch Textures Design, Cardboard Cat Scratcher with Double-Sided Usability\",",
+    "image_path": "/uploads/product-1740153067343.webp"
+  },
+  {
+    "id": "PROD_1740207178666_255",
+    "product_title": "\"Crafts Toys and Treats for Cats\",",
+    "product_price": "1000",
+    "product_description": "\"Anyone who knows me in the least knows I love my kitties. Don't know me? Guess what? I REALLY love my kitties. I'm always on ...\",",
+    "image_path": "/uploads/product-1740207178660.jpg"
+  },
+  {
+    "id": "PROD_1740208876964_835",
+    "product_title": "Cat Carrier Tote Bag",
+    "product_price": "1500",
+    "product_description": "Cat Carrier Tote Bag with Rabbit Head Hole, Cat Carrier Bag with Bee Head Hole, Cute Dinosaur Shaped Pet Canvas Shoulder Bag Portable Carrying Bag for Small Dogs and Cats 13 lbs\"",
+    "image_path": "/uploads/product-1740449077200.jpeg"
+  },
+  {
+    "id": "PROD_1740476161101_145",
+    "product_title": "food ",
+    "product_price": "450",
+    "product_description": "It is absolutely safe and usually recommended by vets to feed a dry food only diet",
+    "image_path": "/uploads/product-1740476161100.jpg"
+  },
+  {
+    "id": "PROD_1750678834122_732",
+    "product_title": "Cat Food",
+    "product_price": "250",
+    "product_description": "asdfdfd",
+    "image_path": "/uploads/product-1750678834120.jpg"
+  }
+]

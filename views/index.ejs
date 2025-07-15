@@ -1,0 +1,207 @@
+<%- include("layouts/header.ejs") %>
+<main>
+    <button id="openChatButton">
+      <img src="images/chat.png" alt="chat icon">
+    </button>
+    <div class="chat-container" id="chatContainer" style="display: none;">
+      <div class="message-container" id="messages">
+
+      </div>
+     
+      <div class="message">
+        <input type="text" placeholder="Type your message..." id="messageInput">
+        <button id="sendMessageButton" onclick="sendMessage()">Send</button>
+      </div>
+      <button id="closeChatButton">X</button>
+    </div>
+
+    
+  <div class="banner_section layout_padding">
+    <div class="container">
+      <div id="main_slider" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="image_1"><img src="images/img-10.png"></div>
+                
+              </div>
+              <div class="col-md-6">
+                <h1 class="banner_taital">Fluffy <span style="color: #ecad15;">Tails</span></h1>
+                <p class="banner_text">"A wagging tail or a gentle purr can melt away all the day’s stress. Pets don’t just understand love—they feel it in their hearts." 🐶🐱💕</p>
+                <div class="buy_bt"><a href="#">Buy Now</a></div>
+                <div class="read_bt"><a href="#">Read More</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="image_1"><img src="images/img-14.png"></div>
+                
+              </div>
+              <div class="col-md-6">
+                <h1 class="banner_taital">Fluffy <span style="color: #ecad15;">Tails</span></h1>
+                <p class="banner_text">"Pets deserve love and care—never harm them, always protect them." 🐾❤️</p>
+                <div class="buy_bt"><a href="#">Buy Now</a></div>
+                <div class="read_bt"><a href="#">Read More</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="image_1"><img src="images/img-4.png"></div>
+              </div>
+              <div class="col-md-6">
+                <h1 class="banner_taital">Fluffy <span style="color: #ecad15;">Tails</span></h1>
+                <p class="banner_text">"A wagging tail or a gentle purr can melt away all the day’s stress. Pets don’t just understand love—they feel it in their hearts." 🐶🐱💕</p>
+                <div class="buy_bt"><a href="#">Buy Now</a></div>
+                <div class="read_bt"><a href="#">Read More</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+          <i class=""><img src="images/left-icon.png"></i>
+        </a>
+        <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+          <i class=""><img src="images/right-icon.png"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!--banner section end -->
+  <!--about section start -->
+  <div class="about_section layout_padding">
+    <div class="container">
+      <div class="image_2"><img src="images/img-2.png"></div>
+      <h1 class="about_taital">About Our Shop</h1>
+      <div class="image_3"><img src="images/img-3.png"></div>
+      <p class="lorem_text">"Choose our pet shop for the best quality accessories, love, and care—because your pet deserves the best!" 🐾❤️</p>
+      <div class="read_bt_1"><a href="#">Read More</a></div>
+    </div>
+
+<div class="vegetables_section layout_padding">
+  <div class="container">
+      <div class="image_2"><img src="images/img-2.png"></div>
+      <h1 class="about_taital">Our purr-fect pet collection</h1>
+      <p class="lorem_text">Reader will be distracted by the readable content of a</p>
+      <div class="vegetables_section_2 layout_padding">
+        <div class="row">
+            <% products.forEach(product => { %>
+                <div class="col">
+                    <div class="box_section">
+                        <div class="image_4"><img src="<%= product.image_path %>"></div>
+                        <h2 class="dolor_text"><%= product.product_price %> TK</h2>
+                        <a href="/product/<%= product.id %>"><h2 class="dolor_text"><%= product.product_title %></h2></a>
+                        <p class="tempor_text"><%= product.product_description %></p>
+                        
+                        <form action="/cart/add" method="POST" class="text-center">
+                          <input type="hidden" name="productId" value="<%= product.id %>">
+                          <button type="submit" class="btn btn-lg btn-dark">Add to Cart</button>
+                        </form>
+
+                    </div>
+                </div>
+            <% }); %>
+      </div>
+    </div>
+  </div>
+</div>
+      
+
+
+  <!--choose section start -->
+  <div class="choose_section layout_padding">
+    <div class="container">
+      <div class="image_2"><img src="images/img-2.png"></div>
+      <h1 class="about_taital">Why Choose Us</h1>
+      <div class="image_3"><img src="images/img-14.png"></div>
+      <p class="lorem_text">"Our pet accessories offers the best quality products, ensuring love and care. We bring you trusted and safe accessories, keeping your pet's happiness and well-being in mind!" 🐾❤️</p>
+      <div class="read_bt_1"><a href="#">Read More</a></div>
+    </div>
+  </div>
+  <!--choose section end -->
+  
+  <!--contact section start -->
+  <div class="contact_section layout_padding">
+    <div class="container">
+      <div class="image_2"><img src="images/img-2.png"></div>
+      <h1 class="about_taital">Contact Us</h1>
+      <div class="row">
+          <div class="col-md-6">
+            <div class="mail_sectin">
+              <input type="text" class="email-bt" placeholder="Your Name" name="Name">
+              <input type="text" class="email-bt" placeholder="Email" name="Name">
+              <input type="text" class="email-bt" placeholder="Phone Number" name="Name">
+              <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+              <div class="send_bt"><a href="#">Send</a></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="map_main">
+              <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="600" height="480" frameborder="0" style="border:0; width: 100%;" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+
+    document.addEventListener('DOMContentLoaded', function() {
+  const socket = io();
+  const messagesDiv = document.getElementById('messages');
+
+
+  function addClassesToMessages() {
+    var messages = messagesDiv.querySelectorAll('p');
+    messages.forEach(function(message, index) {
+      if (index % 2 === 0) {
+        message.classList.add('even');
+        message.classList.remove('odd');
+      } else {
+        message.classList.add('odd');
+        message.classList.remove('even');
+      }
+    });
+  }
+
+
+  socket.on('message', (message) => {
+    messagesDiv.innerHTML += `<p>${message}</p>`;
+    addClassesToMessages();
+  });
+
+
+  function sendMessage() {
+    const messageInput = document.getElementById('messageInput');
+    const message = messageInput.value;
+    socket.emit('message', message);
+    messageInput.value = '';
+  }
+
+  const openChatButton = document.getElementById('openChatButton');
+  const closeChatButton = document.getElementById('closeChatButton');
+  const chatContainer = document.getElementById('chatContainer');
+
+  openChatButton.addEventListener('click', () => {
+    chatContainer.style.display = 'block';
+  });
+
+  closeChatButton.addEventListener('click', () => {
+    chatContainer.style.display = 'none';
+  });
+
+  const sendMessageButton = document.getElementById('sendMessageButton');
+  sendMessageButton.addEventListener('click', sendMessage);
+});
+
+
+</script>
+</main>
+  <%- include("layouts/footer.ejs") %>
