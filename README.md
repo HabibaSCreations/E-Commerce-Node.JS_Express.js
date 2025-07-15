@@ -22,20 +22,15 @@ This is a simple yet functional e-commerce website for pet products, built with 
 ## 🛠 Tech Stack
 
 - **Backend:** Node.js, Express.js  
-- **Frontend:** Bootstrap, EJS  
-
----
-
-## 🎥 Demo Video
-
-📺 **Watch the video** – [Click here](#)  
-🌐 **Live Demo** – [Click here](#)
+- **Frontend:** Bootstrap, EJS (or any templating engine used)  
+- **Additional Packages:** (List any other npm packages used)  
+- **Database:** (Mention if any database is used, e.g., MongoDB, MySQL)  
 
 ---
 
 ## 📦 Installation & Setup
 
-To run this project locally:
+To run this project locally, follow these steps:
 
 1️⃣ Clone the repository:
 ```bash
@@ -46,7 +41,6 @@ git clone https://github.com/HabibaSCreations/Fluffy-Tails-Pet-Mart.git
 ```bash
 npm install
 ```
-
 3️⃣ Start the server:
 ```bash
 npm start
@@ -61,9 +55,8 @@ http://localhost:3000
 
 ## 🙌 Contribute
 
-Feel free to contribute or suggest improvements!  
+💡 Feel free to contribute or provide suggestions!  
 📧 Contact me if you have any questions.
 
----
-
-**HappyCoding 🚀🎉**
+🌷 Thank you for visiting **Fluffy Tails Pet Mart**!  
+Happy coding and happy pet parenting! 🐾🦴
